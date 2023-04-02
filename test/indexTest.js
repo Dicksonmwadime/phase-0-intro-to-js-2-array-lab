@@ -60,7 +60,7 @@ describe('index.js', function () {
       });
     });
 
-    describe('removeLastCat()', function () {
+    describe('prependCat()', function () {
       it('removes the last cat in the cats array and returns a new array, leaving the cats array unchanged', function () {
         expect(removeLastCat()).to.have.ordered.members(["Milo", "Otis"]);
 
